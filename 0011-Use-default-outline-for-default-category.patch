@@ -1,0 +1,25 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Your Name <you@example.com>
+Date: Sun, 27 Aug 2023 13:39:39 +0900
+Subject: [PATCH] Use default outline for default category
+
+---
+ public/src/js/songselect.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/public/src/js/songselect.js b/public/src/js/songselect.js
+index b4ec17b..78abf99 100644
+--- a/public/src/js/songselect.js
++++ b/public/src/js/songselect.js
+@@ -74,7 +74,7 @@ class SongSelect{
+ 				sort: null,
+ 				background: `#${Math.floor(Math.random() * 0xFFFFFF).toString(16).padStart(6, "0")}`,
+ 				border: [`#${Math.floor(Math.random() * 0xFFFFFF).toString(16).padStart(6, "0")}`, `#${Math.floor(Math.random() * 0xFFFFFF).toString(16).padStart(6, "0")}`],
+-				outline: "#000000",
++				outline: "#656565",
+ 				infoFill: `#${Math.floor(Math.random() * 0xFFFFFF).toString(16).padStart(6, "0")}`
+ 			}
+ 		}
+-- 
+2.34.1
+

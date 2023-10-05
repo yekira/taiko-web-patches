@@ -1,0 +1,45 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Your Name <you@example.com>
+Date: Fri, 1 Sep 2023 19:49:55 +0900
+Subject: [PATCH] transparent song frame
+
+---
+ public/src/js/canvasdraw.js | 2 +-
+ public/src/js/songselect.js | 8 ++++----
+ 2 files changed, 5 insertions(+), 5 deletions(-)
+
+diff --git a/public/src/js/canvasdraw.js b/public/src/js/canvasdraw.js
+index 72f6a91..8f4e296 100644
+--- a/public/src/js/canvasdraw.js
++++ b/public/src/js/canvasdraw.js
+@@ -153,7 +153,7 @@
+ 				y: 5,
+ 				force: !noForce
+ 			})
+-			ctx.fillStyle = "#000"
++			ctx.fillStyle = "transparent"
+ 			ctx.fillRect(0, 0, w, h)
+ 		}
+ 		if(config.cached){
+diff --git a/public/src/js/songselect.js b/public/src/js/songselect.js
+index 78abf99..6c3e28d 100644
+--- a/public/src/js/songselect.js
++++ b/public/src/js/songselect.js
+@@ -72,10 +72,10 @@ class SongSelect{
+ 			},
+ 			"default": {
+ 				sort: null,
+-				background: `#${Math.floor(Math.random() * 0xFFFFFF).toString(16).padStart(6, "0")}`,
+-				border: [`#${Math.floor(Math.random() * 0xFFFFFF).toString(16).padStart(6, "0")}`, `#${Math.floor(Math.random() * 0xFFFFFF).toString(16).padStart(6, "0")}`],
+-				outline: "#656565",
+-				infoFill: `#${Math.floor(Math.random() * 0xFFFFFF).toString(16).padStart(6, "0")}`
++				background: "transparent",
++				border: ["transparent", "transparent"],
++				outline: "transparent",
++				infoFill: "transparent"
+ 			}
+ 		}
+ 		
+-- 
+2.34.1
+

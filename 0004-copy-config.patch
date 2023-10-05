@@ -1,7 +1,7 @@
-From e9182abc5f5ecaa8995d1602627342cba00f6b23 Mon Sep 17 00:00:00 2001
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
 From: yekira <yekira@allergist.com>
 Date: Mon, 27 Mar 2023 20:18:35 +0900
-Subject: [PATCH 4/4] copy config
+Subject: [PATCH] copy config
 
 ---
  config.py | 65 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -80,5 +80,5 @@ index 0000000..cd8f61d
 +    'min_level': None
 +}
 -- 
-2.39.2
+2.34.1
 
