@@ -41,5 +41,5 @@ index c3a8fc0..939b9e9 100644
  				this.onInput()
  				if(event.keyCode === 13 && this.songSelect.touchEnabled){
 -- 
-2.34.1
+2.39.2
 

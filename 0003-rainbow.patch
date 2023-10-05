@@ -31,5 +31,5 @@ index e016308..c3e7c10 100644
  	</div>
  	<script src="src/js/browsersupport.js?{{version.commit_short}}"></script>
 -- 
-2.34.1
+2.39.2
 
