@@ -1,7 +1,7 @@
-From 415985f962a5ac26d42b603d52810fb65defd130 Mon Sep 17 00:00:00 2001
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
 From: yekira <yekira@allergist.com>
 Date: Mon, 27 Mar 2023 20:18:27 +0900
-Subject: [PATCH 3/4] rainbow++
+Subject: [PATCH] rainbow++
 
 ---
  templates/index.html | 5 +++--

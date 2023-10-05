@@ -1,0 +1,29 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Your Name <you@example.com>
+Date: Tue, 22 Aug 2023 20:58:42 +0900
+Subject: [PATCH] correct japanese
+
+---
+ public/src/js/strings.js | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/public/src/js/strings.js b/public/src/js/strings.js
+index 86441c7..6f0729e 100644
+--- a/public/src/js/strings.js
++++ b/public/src/js/strings.js
+@@ -488,9 +488,9 @@ var translations = {
+ 		otherTutorial: {
+ 			ja: [
+ 				"%sはゲームを一時停止します",
+-				"曲をえらぶしながら%sか%sキーを押してジャンルをスキップします",
+-				"むずかしさをえらぶしながら%sキーを押しながらオートモードを有効",
+-				"むずかしさをえらぶしながら%sキーを押しながらネットプレイモードを有効"
++				"曲をえらびながら%sか%sキーを押してジャンルをスキップします",
++				"むずかしさをえらびながら%sキーを押してオートモードを有効",
++				"むずかしさをえらびながら%sキーを押してネットプレイモードを有効"
+ 			],
+ 			en: [
+ 				"%s \u2014 pause game",
+-- 
+2.39.2
+

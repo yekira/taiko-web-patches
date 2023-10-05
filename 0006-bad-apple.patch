@@ -1,0 +1,25 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Your Name <you@example.com>
+Date: Mon, 21 Aug 2023 21:57:36 +0900
+Subject: [PATCH] bad apple
+
+---
+ public/src/js/assets.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/public/src/js/assets.js b/public/src/js/assets.js
+index 24d4232..befa300 100644
+--- a/public/src/js/assets.js
++++ b/public/src/js/assets.js
+@@ -82,7 +82,7 @@ var assets = {
+ 		"mimizu.png"
+ 	],
+ 	"cssBackground": {
+-		"#title-screen": "title-screen.png",
++		"#title-screen": "title-bad-apple.gif",
+ 		"#loading-don": "dancing-don.gif",
+ 		".pattern-bg": "bg-pattern-1.png",
+ 		".song-search-result-course::before": "difficulty.png",
+-- 
+2.39.2
+
