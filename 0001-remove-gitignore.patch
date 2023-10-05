@@ -1,0 +1,75 @@
+From e50745f79934dc2e87803790ed880e8661c1106e Mon Sep 17 00:00:00 2001
+From: yekira <yekira@allergist.com>
+Date: Mon, 27 Mar 2023 20:17:39 +0900
+Subject: [PATCH 1/4] remove gitignore
+
+---
+ .gitignore | 56 ------------------------------------------------------
+ 1 file changed, 56 deletions(-)
+ delete mode 100644 .gitignore
+
+diff --git a/.gitignore b/.gitignore
+deleted file mode 100644
+index 0bf6e0b..0000000
+--- a/.gitignore
++++ /dev/null
+@@ -1,56 +0,0 @@
+-# Windows image file caches
+-Thumbs.db
+-ehthumbs.db
+-
+-# Folder config file
+-Desktop.ini
+-
+-# Recycle Bin used on file shares
+-$RECYCLE.BIN/
+-
+-# Windows Installer files
+-*.cab
+-*.msi
+-*.msm
+-*.msp
+-
+-# Windows shortcuts
+-*.lnk
+-
+-# =========================
+-# Operating System Files
+-# =========================
+-
+-# OSX
+-# =========================
+-
+-.DS_Store
+-.AppleDouble
+-.LSOverride
+-
+-# Thumbnails
+-._*
+-
+-# Files that might appear on external disk
+-.Spotlight-V100
+-.Trashes
+-
+-.vscode
+-*.pyc
+-
+-# Directories potentially created on remote AFP share
+-.AppleDB
+-.AppleDesktop
+-Network Trash Folder
+-Temporary Items
+-.apdisk
+-public/songs
+-public/api
+-taiko.db
+-version.json
+-public/index.html
+-config.py
+-public/assets/song_skins
+-.venv
+-public/src/js/plugin
+-.hidden
+-- 
+2.39.2
+
